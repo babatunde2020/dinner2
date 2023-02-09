@@ -5,14 +5,14 @@
 @media  (max-width:700px){
     .bg1st{
         padding: 10px;
-        background: linear-gradient(130deg, #ffb3b3, #ff80b3); 
+        background-color: black;
     }
     .nav-link{
         font-size: small;
         text-align: center;
         font-weight: 600;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     .nav-link2{
       padding: 5px;
@@ -26,69 +26,16 @@
       margin-right: 2px;
     }
     .logo{
-        color: #003300;;
-      font-size: 24px;
+        color: white;;
+      font-size: 28px;
       font-weight: 900;
-      font-style: italic;
+      font-style:italic;
       font-family:Georgia, 'Times New Roman', Times, serif;
-      text-shadow: #ff66d9 1px 1px 8px;
+      text-shadow: #ff0000 1px 1px 8px;
     }
 
-    .bg2{
-      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/shegun.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      padding: 20px;
-      height: 90vh;
-      transition: 5s;
-      background-position: top right;
-  
-      animation-name:animate;
-      animation-direction:alternate-reverse ;
-      animation-duration:30s;
-      animation-fill-mode:forwards ;
-      animation-iteration-count:infinite ;
-      animation-play-state:running ;
-      animation-timing-function: ease-in-out;
-    }
+    
 
-    @keyframes animate{
-        0%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/shegun.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-          transition: 2s;
-        }
-        20%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/award.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-          transition: 2s;
-        }
-        40%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/award2.png');
-          background-repeat: no-repeat;
-          background-size: cover;
-          transition: 2s;
-        }
-        60%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/heart-700141__480.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-          transition: 2s;
-        }
-        80%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/romantic-dinner-lovely-young-couple-eating-37154766.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-        100%{
-          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/dinner.jpg');
-          background-repeat: no-repeat;
-          background-size: cover;
-          transition: 2s;
-        }
-}
 
 .logo1{
     color: white;;
@@ -96,7 +43,7 @@
     font-weight: 900;
     font-style: italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    text-shadow: #ff66d9 1px 1px 8px;
+    text-shadow: #ff0000 1px 1px 8px;
     text-align: center;
 }
 .p1{
@@ -157,7 +104,7 @@
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    width: 300px;
+    width: 250px;
     padding: 10px;
   }
   .ancors{
@@ -172,7 +119,8 @@
     text-decoration: none;
   }
   .lastcon{
-    background-color: #330000;
+    background-color: black;
+    color: white;
   }
 }
 
@@ -189,14 +137,15 @@
 @media  (min-width:700px){
     .bg1st{
         padding: 10px;
-        background: linear-gradient(130deg, #ffb3b3, #ff80b3); 
+        background-color: black;
+        
     } 
     .nav-link{
         font-size: small;
         text-align: center;
         font-weight: 600;
         text-decoration: none;
-        color: black;
+        color: white;
     }
     .nav-link2{
       padding: 5px;
@@ -210,7 +159,7 @@
       margin-right: 2px;
     }
     .logo{
-        color: #003300;;
+        color: white;;
       font-size: 24px;
       font-weight: 900;
       font-style: italic;
@@ -298,6 +247,6 @@
     text-decoration: none;
   }
   .lastcon{
-    background-color: #330000;
+    background-color: black;
   }
 }
