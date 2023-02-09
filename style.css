@@ -1,0 +1,303 @@
+
+.con4{
+    text-align: center;
+  }
+@media  (max-width:700px){
+    .bg1st{
+        padding: 10px;
+        background: linear-gradient(130deg, #ffb3b3, #ff80b3); 
+    }
+    .nav-link{
+        font-size: small;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-link2{
+      padding: 5px;
+      font-weight: 600;
+      font-size: medium;
+      background: linear-gradient(130deg, #99003d, #660000);
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .logo{
+        color: #003300;;
+      font-size: 24px;
+      font-weight: 900;
+      font-style: italic;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-shadow: #ff66d9 1px 1px 8px;
+    }
+
+    .bg2{
+      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/shegun.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 20px;
+      height: 90vh;
+      transition: 5s;
+      background-position: top right;
+  
+      animation-name:animate;
+      animation-direction:alternate-reverse ;
+      animation-duration:30s;
+      animation-fill-mode:forwards ;
+      animation-iteration-count:infinite ;
+      animation-play-state:running ;
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes animate{
+        0%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/shegun.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: 2s;
+        }
+        20%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/award.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: 2s;
+        }
+        40%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/award2.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: 2s;
+        }
+        60%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/heart-700141__480.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: 2s;
+        }
+        80%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/romantic-dinner-lovely-young-couple-eating-37154766.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        100%{
+          background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/dinner.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: 2s;
+        }
+}
+
+.logo1{
+    color: white;;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #ff66d9 1px 1px 8px;
+    text-align: center;
+}
+.p1{
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+.h5a{
+    font-size: small!important;
+    color: white;
+}
+.phone{
+    background-image:  url('img/phone3D-orange.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+  }
+  .h3d{
+    color: #330026;
+    font-size: small;
+    text-align: center;
+    text-shadow:#e6ffe6 1px 1px 8px;
+    font-weight: 700;
+  }
+  .connect{
+    font-size: small;
+    color: #fff;
+    padding: 9px;
+    background: linear-gradient(130deg,  #1a0013, #b30086);
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .last{
+    background-color: black;
+  }
+
+  .lin{
+    color: white!important;
+  }
+  .maincard{
+    width: 100%;
+    padding: 5px;
+  }
+  .dinner{
+    background-image:  url('img/329400476_578680660809604_2363144351923829416_n.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+  }
+  .h1a{
+    color: black;
+    background: linear-gradient(130deg, #ff9999, #660000);
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+  }
+  .ancors{
+    color: white;
+    background: linear-gradient(130deg, #99003d, #660000);
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 7px;
+    border-radius: 26px;
+    text-decoration: none;
+  }
+  .lastcon{
+    background-color: #330000;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:700px){
+    .bg1st{
+        padding: 10px;
+        background: linear-gradient(130deg, #ffb3b3, #ff80b3); 
+    } 
+    .nav-link{
+        font-size: small;
+        text-align: center;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+    }
+    .nav-link2{
+      padding: 5px;
+      font-weight: 600;
+      font-size: medium;
+      background: linear-gradient(130deg, #99003d, #660000);
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+    .logo{
+        color: #003300;;
+      font-size: 24px;
+      font-weight: 900;
+      font-style: italic;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      text-shadow: #ff66d9 1px 1px 8px;
+    }
+
+   
+
+.logo1{
+    color: white;;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #ff66d9 1px 1px 8px;
+    text-align: center;
+}
+.p1{
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+.h5a{
+    font-size: large!important;
+    color: white;
+}
+.phone{
+    background-image:  url('img/phone3D-orange.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+  }
+  .h3d{
+    color:#330026;
+    font-size: smaller;
+    text-align: center;
+    text-shadow:#e6ffe6 1px 1px 8px;
+    font-weight: 700;
+  }
+  .connect{
+    font-size: smaller;
+    color: #fff;
+    padding: 9px;
+    background: linear-gradient(130deg,  #1a0013, #ff66d9);
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .lin{
+    color: white!important;
+  }
+  .maincard{
+    width: 700px;
+    padding: 5px;
+  }
+  .dinner{
+    background-image:  url('img/329400476_578680660809604_2363144351923829416_n.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 700px;
+    background-position: center;
+  }
+  .h1a{
+    color: black;
+    background: linear-gradient(130deg, #ff9999, #660000);
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+  }
+  .ancors{
+    color: white;
+    background: linear-gradient(130deg, #99003d, #660000);
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 7px;
+    border-radius: 26px;
+    text-decoration: none;
+  }
+  .lastcon{
+    background-color: #330000;
+  }
+}
